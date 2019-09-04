@@ -1,0 +1,8 @@
+{
+    “name”: “meleebot”,
+    “version”: “1.0.0”,
+    “description”: “A discord bot for technical documentation on SSBM”,
+    “main”: “bot.js”,
+    “author”: “cagliostro9”,
+    “dependencies”: {}
+    }
