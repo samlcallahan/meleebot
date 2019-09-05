@@ -1,8 +1,9 @@
 # Work with Python 3.6
 import discord
+from discord.ext import commands
 
-TOKEN = 'NjE0MjE2MzE1MzA0OTM1NDQ0.XW_fFA.nmJfGOCYXUpwRtb7FamDOjFz3Zk'
-
+TOKEN_FILE = open("token.txt","r")
+TOKEN = TOKEN_FILE.read()
 client = discord.Client()
 
 @client.event
