@@ -49,10 +49,10 @@ async def hackpack_cheatsheet(ctx):
     await ctx.send("http://i.imgur.com/vLoGO9O.png")
 
 @bot.command(aliases=["savestates","savestate_explained","savestates_explanation","savestate_explanation"])
-async def savestates_explained:
+async def savestates_explained(ctx):
     await ctx.send("https://www.reddit.com/r/SSBM/comments/6gkgol/406_20xx_save_states_explained_text_form/")
 
 @bot.command(aliases=["beginnerneutral","beginner_neutral"])
-async def neutral:
+async def neutral(ctx):
     await ctx.send("https://pastebin.com/MBWLNRwp")
 bot.run(TOKEN)
