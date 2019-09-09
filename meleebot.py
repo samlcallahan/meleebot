@@ -28,4 +28,31 @@ async def foxcc(ctx):
 async def dev(ctx):
     await ctx.send("Brought to you by cagliostro9")
 
+@bot.command(aliases=["meleelibrary","melee_library","themeleelibrary","the_melee_library"])
+async def library(ctx):
+    await ctx.send("https://www.meleelibrary.com/")
+
+@bot.command(aliases=["relative_shields","relativeshields","shieldsizes","shield_size","shieldsize"])
+async def shield_sizes(ctx):
+    await ctx.send("https://cdn.discordapp.com/attachments/173202700710707200/547105310251155483/image0.png")
+
+@bot.command(aliases=["fox_fox_cg","foxdittocg","fox_ditto_chaingrab","foxdittochaingrab"])
+async def fox_ditto_cg(ctx):
+    await ctx.send("https://smashboards.com/threads/fox-ditto-true-chaingrab-percents-data-2018.462429/")
+
+@bot.command(aliases=["drilladvantage","drilladv","drill_advantage","fox_drill_adv","foxdrillladv","fox_drill_advantage","foxdrilladvantage","drill_on_hit","drillonhit"])
+async def drill_adv(ctx):
+    await ctx.send("https://docs.google.com/spreadsheets/d/1KZ5F8nEpNsY1NHDx91Aeq-3IeUAFFhgTOGf9h3kuP1I/edit?usp=sharing")
+
+@bot.command(aliases=["20XX_shortcuts","20XX_codes"])
+async def 20XX_cheatsheet(ctx):
+    await ctx.send("http://i.imgur.com/vLoGO9O.png")
+
+@bot.command(aliases=["savestates","savestate_explained","savestates_explanation","savestate_explanation"])
+async def savestates_explained:
+    await ctx.send("https://www.reddit.com/r/SSBM/comments/6gkgol/406_20xx_save_states_explained_text_form/")
+
+@bot.command(aliases=["beginnerneutral","beginner_neutral"])
+async def neutral:
+    await ctx.send("https://pastebin.com/MBWLNRwp")
 bot.run(TOKEN)
