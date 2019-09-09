@@ -55,4 +55,9 @@ async def savestates_explained(ctx):
 @bot.command(aliases=["beginnerneutral","beginner_neutral"])
 async def neutral(ctx):
     await ctx.send("https://pastebin.com/MBWLNRwp")
+
+@bot.command(aliases=["badquestion","badq","bad_q"]
+async def bad_question(ctx):
+    await ctx.send("https://pastebin.com/QmPfRJUG")
+
 bot.run(TOKEN)
