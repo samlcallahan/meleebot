@@ -44,8 +44,8 @@ async def fox_ditto_cg(ctx):
 async def drill_adv(ctx):
     await ctx.send("https://docs.google.com/spreadsheets/d/1KZ5F8nEpNsY1NHDx91Aeq-3IeUAFFhgTOGf9h3kuP1I/edit?usp=sharing")
 
-@bot.command(aliases=["20XX_shortcuts","20XX_codes"])
-async def 20XX_cheatsheet(ctx):
+@bot.command(aliases=["20XX_shortcuts","20XX_codes","20XX_cheatsheet","20XX"])
+async def hackpack_cheatsheet(ctx):
     await ctx.send("http://i.imgur.com/vLoGO9O.png")
 
 @bot.command(aliases=["savestates","savestate_explained","savestates_explanation","savestate_explanation"])
